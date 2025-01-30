@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+   
+}
+.outside{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2.52em;
+    border: 2px solid black;
+    border-radius: 4%;
+    padding: 50px 70px ;
+    
+   
+    
+    
+}
+h3{
+    color: rgb(7, 126, 199);
+}
+.choice{
+    display: flex;
+    gap: 1.2em;
+    
+}
+.choice button{
+    padding: 0.5em 1.2em;
+    border-radius: 0.5em;
+    font-size: 30px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.choice button:hover{
+    background-color: rgb(132, 255, 0);
+    border: 3px solid rgb(3, 10, 51);
+    transform:scale(1.05) ;
+}
+
